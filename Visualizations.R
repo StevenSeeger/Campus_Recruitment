@@ -54,5 +54,5 @@ ggplot(placement_data, aes(x=salary, color=gender, fill=gender)) +
   scale_x_continuous(labels = scales::comma) + 
   scale_y_continuous(labels = scales::comma) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
-#Too few observations for `Others`, but obvious pay disparty in Sci&Tech
+#Too few observations for `Others`, but obvious pay disparity in Sci&Tech
        
